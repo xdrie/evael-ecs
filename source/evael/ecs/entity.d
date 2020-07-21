@@ -68,7 +68,7 @@ struct Entity
     @nogc
     @property nothrow
     {
-        public ref const(Id) id() const
+        public ref const(Id) id() const return
         {
             return this.m_id;
         }
